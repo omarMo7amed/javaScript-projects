@@ -269,6 +269,7 @@ class App {
     const data = JSON.parse(localStorage.getItem('workout'));
 
     if (!data) return;
+    console.log(data);
 
     this.#workout = data;
 
